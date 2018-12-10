@@ -120,7 +120,6 @@ CREATE TABLE `fact_orders`
 , customerid INT
 , customersalesrepid INT
 , qunatityordered DECIMAL(32)
-, totalprice DOUBLE
 , priceeach DOUBLE
 , productbuyprice DOUBLE
 , ordertimeid BIGINT
