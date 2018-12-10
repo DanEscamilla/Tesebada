@@ -264,7 +264,7 @@
            <schema_name/>
            </partitioning>
     <connection>pentaho_olap</connection>
-    <sql>SELECT&#xa;  timeid&#xa;, timedate&#xa;FROM dim_time&#xa;</sql>
+    <sql>SELECT&#xd;&#xa;  timeid&#xd;&#xa;, date_value&#xd;&#xa;FROM dim_time&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -335,11 +335,11 @@
     <lookup>
       <key>
         <name>orderdate</name>
-        <field>timedate</field>
+        <field>date_value</field>
       </key>
       <value>
         <name>timeid</name>
-        <rename>ordertimeid</rename>
+        <rename>timeid</rename>
         <default/>
         <type>Integer</type>
       </value>
@@ -483,7 +483,7 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>ordertimeid</name>
+      </field>      <field>        <name>timeid</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>

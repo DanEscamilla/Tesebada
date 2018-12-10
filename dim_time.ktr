@@ -219,7 +219,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>&#x2f;home&#x2f;mazino&#x2f;Downloads&#x2f;Date_properties &#x28;2&#x29;.xls</name>
+      <name>&#x2f;home&#x2f;daniel&#x2f;Documents&#x2f;Pentaho&#x2f;transformaciones&#x2f;Date_properties &#x28;2&#x29;.xls</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -359,7 +359,7 @@
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>&#x2f;home&#x2f;mazino&#x2f;Downloads&#x2f;date_file &#x28;2&#x29;.xls</name>
+      <name>&#x2f;home&#x2f;daniel&#x2f;Documents&#x2f;Pentaho&#x2f;transformaciones&#x2f;date_file &#x28;2&#x29;.xls</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
